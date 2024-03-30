@@ -1,0 +1,39 @@
+{
+  "name": "sikret-cli",
+  "version": "0.0.1",
+  "description": "Secret manager tools",
+  "bin": {
+    "sikret": "bin/index.js"
+  },
+  "main": "bin/index.js",
+  "scripts": {
+    "prepublishOnly": "node prepublish.js && tsc",
+    "release": "cross-env RELEASE_MODE=true np --no-tests",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "tsc -w"
+  },
+  "publishConfig": {
+	  "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/firdausious/sikret-cli"
+  },
+  "keywords": [
+    "secretmanager",
+    "config"
+  ],
+  "author": "firdausious",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.2",
+    "@types/yargs": "^17.0.32",
+    "cross-env": "^7.0.3",
+    "np": "^10.0.2",
+    "typescript": "^5.4.3"
+  }
+}
