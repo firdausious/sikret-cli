@@ -1,6 +1,6 @@
 {
   "name": "sikret-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Secret manager tools",
   "bin": {
     "sikret": "bin/index.js"
@@ -13,7 +13,7 @@
     "watch": "tsc -w"
   },
   "publishConfig": {
-	  "registry": "https://registry.npmjs.org"
+    "registry": "https://registry.npmjs.org"
   },
   "repository": {
     "type": "git",
