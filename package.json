@@ -33,14 +33,15 @@
   ],
   "author": "firdausious",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "yargs": "^17.7.2"
+  },
   "devDependencies": {
     "@types/node": "^20.12.2",
     "@types/yargs": "^17.0.32",
-    "chalk": "^4.1.2",
     "cross-env": "^7.0.3",
     "np": "^10.0.2",
-    "typescript": "^5.4.3",
-    "yargs": "^17.7.2"
+    "typescript": "^5.4.3"
   }
 }
