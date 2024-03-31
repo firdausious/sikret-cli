@@ -1,6 +1,6 @@
 {
   "name": "sikret-cli",
-  "version": "0.0.3",
+  "version": "0.1.0",
   "description": "Secret manager tools",
   "bin": {
     "sikret": "bin/index.js"
